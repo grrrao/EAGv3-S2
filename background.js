@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "AIzaSyB_UF3j5dvO8Yn4Z1AKsqJSnWQhp9-RMG4";
+const GEMINI_API_KEY = "";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
 
 const translationCache = new Map();
